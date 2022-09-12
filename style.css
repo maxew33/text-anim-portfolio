@@ -1,0 +1,142 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.home-letters {
+  fill: none;
+  stroke: #fb0000;
+  stroke-width: 0.125vw;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+}
+
+.drawing-container {
+  position: absolute;
+  width: 25vw;
+  aspect-ratio: 1/2;
+}
+
+#letter-h {
+  stroke-dasharray: 3.3vw 1s;
+  stroke-dashoffset: 3.3vw 1s;
+  -webkit-animation: 1s home-letters-h 100ms linear forwards;
+          animation: 1s home-letters-h 100ms linear forwards;
+}
+
+.caca- {
+  background: red;
+}
+
+@-webkit-keyframes home-letters-h {
+  from {
+    stroke-dashoffset: 3.3vw 1s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes home-letters-h {
+  from {
+    stroke-dashoffset: 3.3vw 1s;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#letter-o {
+  stroke-dasharray: 2.55vw;
+  stroke-dashoffset: 2.55vw;
+  -webkit-animation: 1s home-letters-o 100ms linear forwards;
+          animation: 1s home-letters-o 100ms linear forwards;
+}
+
+.caca- {
+  background: red;
+}
+
+@-webkit-keyframes home-letters-o {
+  from {
+    stroke-dashoffset: 2.55vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes home-letters-o {
+  from {
+    stroke-dashoffset: 2.55vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#letter-m {
+  stroke-dasharray: 5vw;
+  stroke-dashoffset: 5vw;
+  -webkit-animation: 1s home-letters-m 100ms linear forwards;
+          animation: 1s home-letters-m 100ms linear forwards;
+}
+
+.caca- {
+  background: red;
+}
+
+@-webkit-keyframes home-letters-m {
+  from {
+    stroke-dashoffset: 5vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes home-letters-m {
+  from {
+    stroke-dashoffset: 5vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#letter-e {
+  stroke-dasharray: 3.3vw;
+  stroke-dashoffset: 3.3vw;
+  -webkit-animation: 1s home-letters-e 100ms linear forwards;
+          animation: 1s home-letters-e 100ms linear forwards;
+}
+
+.caca- {
+  background: red;
+}
+
+@-webkit-keyframes home-letters-e {
+  from {
+    stroke-dashoffset: 3.3vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes home-letters-e {
+  from {
+    stroke-dashoffset: 3.3vw;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
